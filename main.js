@@ -23,10 +23,9 @@
             
             view.when(()=> {
                 const template  = featureLayer.createPopupTemplate();
-                featureLayer.popupTemplate = template;
-                console.log(template);    
+                featureLayer.popupTemplate = template;   
             });
+            
             map.add(featureLayer);
 
-           
         });
